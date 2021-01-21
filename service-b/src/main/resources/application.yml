@@ -4,3 +4,14 @@ spring:
     name: service-a
 server:
   port: 8040
+
+
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8010/eureka}
+      healthcheck:
+      enabled: true
+  instance:
+    appname: service-b
+    preferIpAddress: true
