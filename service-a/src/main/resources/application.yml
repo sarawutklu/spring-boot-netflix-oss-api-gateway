@@ -3,12 +3,12 @@ spring:
   application:
     name: service-a
 server:
-  port: 8040
+  port: 8030
 
 eureka: 
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8010/eureka}
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
       healthcheck:
       enabled: true
   instance:
