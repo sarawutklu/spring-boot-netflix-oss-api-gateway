@@ -1,13 +1,13 @@
-package github.sarawutklu.zuulapigateway;
+// package github.sarawutklu.zuulapigateway;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class ZuulApiGatewayApplicationTests {
+// @SpringBootTest
+// class ZuulApiGatewayApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }

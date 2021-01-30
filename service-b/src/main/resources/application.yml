@@ -1,17 +1,13 @@
-
 spring:
   application:
-    name: service-a
+    name: service-b
+
 server:
-  port: 8040
+  port: 8081
 
-
-eureka: 
+eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
-      healthcheck:
-      enabled: true
   instance:
-    appname: service-b
     preferIpAddress: true
